@@ -13,3 +13,6 @@
     border: 1px solid #000;
 
 }
+.flex {display: flex;}
+.row{flex-direction: row;}
+.column {flex: column;}

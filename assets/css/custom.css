@@ -1,0 +1,48 @@
+.icon{
+    color: var(--icon-color);
+    margin-right: 20px;
+    width: 18px;
+
+}
+.info,
+.contact,
+.skils{
+    padding: 12%;
+}
+.hero-img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.rectangle{
+    background-color: orange;
+    width: 140px;
+    height: 300px;
+    position: absolute;
+}
+.col-left{
+    position: relative;
+}
+.title::after{
+ display: block;
+ content: "";
+ width: 90%;
+ height: 1px;
+ background-color: orange;
+ margin-top: 8px;
+ margin-bottom: 25px;
+}
+.phone,.adress,.phone{
+    height: 25px;
+    align-items: center;
+}
+.skill-items {
+    list-style-type: disc;
+    margin-left: 18px;
+}
+.skill-items li{
+    line-height: 30px;
+}
+li::marker{
+color: orange;
+}
+.orange{color: orange;}
